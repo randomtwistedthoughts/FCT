@@ -1,0 +1,48 @@
+# Reading and Writing Files — Practice Questions & Answers
+
+## 1. What is a relative path relative to?
+**Answer:** It is relative to the current working directory.  
+**Explanation:** The current working directory acts as the base for resolving relative paths.
+
+## 2. What does an absolute path start with?
+**Answer:** It starts with the root folder.  
+**Explanation:** On Windows this is typically something like `C:\\`, and on Unix-based systems it is `/`.
+
+## 3. What do the `os.getcwd()` and `os.chdir()` functions do?
+**Answer:**  
+- `os.getcwd()` returns the current working directory.  
+- `os.chdir()` changes the current working directory.  
+**Explanation:** They allow navigation and inspection of the filesystem location your script is working in.
+
+## 4. What are the `.` and `..` folders?
+**Answer:**  
+- `.` represents the current directory.  
+- `..` represents the parent directory.  
+**Explanation:** They are special directory names used for navigation.
+
+## 5. In `C:\\bacon\\eggs\\spam.txt`, which part is the dir name, and which part is the base name?
+**Answer:**  
+- Dir name: `C:\\bacon\\eggs`  
+- Base name: `spam.txt`  
+**Explanation:** The directory path precedes the file name.
+
+## 6. What are the three “mode” arguments that can be passed to the `open()` function?
+**Answer:**  
+- `'r'` for reading  
+- `'w'` for writing  
+- `'a'` for appending  
+**Explanation:** Each specifies how the file should be accessed.
+
+## 7. What happens if an existing file is opened in write mode?
+**Answer:** Its contents are erased.  
+**Explanation:** Write mode always overwrites unless a different mode (like append) is used.
+
+## 8. What is the difference between the `read()` and `readlines()` methods?
+**Answer:**  
+- `read()` returns the entire file as a single string.  
+- `readlines()` returns a list of strings, one for each line.  
+**Explanation:** `readlines()` is useful for line‑by‑line processing.
+
+## 9. What data structure does a shelf value resemble?
+**Answer:** A dictionary.  
+**Explanation:** Shelves store key–value pairs and behave like persistent dictionaries.
