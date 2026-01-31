@@ -71,7 +71,7 @@ sheet['A1'] = '=SUM(B1:B5)'
 ```
 
 ## 14. If you want to retrieve the result of a cell’s formula instead of the cell’s formula itself, what must you do first?
-**Answer:** Open the workbook with `data_only=True`.
+**Answer:*`data_only=True`.
 
 ## 15. How would you set the height of row 5 to 100?
 **Answer:**  
